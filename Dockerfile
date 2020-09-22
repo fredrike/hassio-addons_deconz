@@ -34,6 +34,8 @@ RUN \
         wmii \
         xfonts-base \
         xfonts-scalable \
+        binutils \
+    && strip --remove-section=.note.ABI-tag /usr/lib/x86_64-linux-gnu/libQt5Core.so.5 \
     && rm -rf /var/lib/apt/lists/* \
     && if [[ "armhf aarch64" = *"$BUILD_ARCH"* ]]; \
         then \
