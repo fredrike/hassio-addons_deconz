@@ -1,7 +1,7 @@
 {
-  "name": "deCONZ",
+  "name": "deCONZ for Synology",
   "version": "6.6.1",
-  "slug": "deconz",
+  "slug": "deconz_synology",
   "description": "Control a Zigbee network with ConBee or RaspBee by Dresden Elektronik",
   "arch": ["amd64", "armhf", "aarch64"],
   "url": "https://github.com/fredrike/hassio-addons_deconz/tree/master/",
